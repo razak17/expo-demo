@@ -8,6 +8,9 @@ const SignIn = () => {
       <Link href="(auth)/sign-up" className="text-lg text-primary">
         Sign Up
       </Link>
+      <Link href="/" className="text-lg text-primary">
+        Go to Home
+      </Link>
     </View>
   )
 }
