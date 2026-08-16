@@ -1,0 +1,47 @@
+{
+  "lsp": {
+    "override": ["jsonls", "tsgo", "copilot"],
+    "lang": {
+      "typescript": {
+        "tsgo": true,
+        "vtsls": true
+      },
+      "web": {
+        "eslint": false,
+        "biome": true
+      },
+      "tailwind": {
+        "tailwindcss": true
+      }
+    }
+  },
+  "formatter": {
+    "typescript": {
+      "prettier": false,
+      "biome": false,
+      "biome-check": true,
+      "oxfmt": false
+    }
+  },
+  "completion": {
+    "variant": "blink",
+    "snippets": {
+      "variant": "friendly-snippets"
+    }
+  },
+  "colorscheme": {
+    "name": "vscode",
+    "variant": "fill"
+  },
+  "explorer": {
+    "variant": "neo-tree"
+  },
+  "ui": {
+    "scroll": {
+      "enable": false
+    },
+    "transparent": {
+      "enable": true
+    }
+  }
+}
