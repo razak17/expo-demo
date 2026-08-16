@@ -1,19 +1,17 @@
 import { Link } from 'expo-router';
+import { SafeAreaView } from "react-native-safe-area-context";
 import { View, Text } from 'react-native'
 
-const SignIn = () => {
+const SignUp = () => {
   return (
-    <View>
+    <SafeAreaView className="auth-safe-area">
       <Text>Sign Up</Text>
       <Link href="(auth)/sign-in" className="text-lg text-primary">
         Sign In
       </Link>
-      <Link href="/" className="text-lg text-primary">
-        Go to Home
-      </Link>
-    </View>
+    </SafeAreaView>
   )
 }
 
-export default SignIn
+export default SignUp
 

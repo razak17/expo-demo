@@ -1,9 +1,12 @@
+import { SafeAreaView } from "react-native-safe-area-context";
+
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
 
+
 export default function Index() {
   return (
-    <View className="flex-1 items-center justify-center bg-background">
+    <SafeAreaView className="flex-1 bg-background p-5">
       <Text className="text-xl font-bold text-success">
         Welcome to Nativewind!
       </Text>
@@ -27,6 +30,6 @@ export default function Index() {
         className="text-lg text-primary">
         Netflix Subscription
       </Link>
-    </View>
+    </SafeAreaView>
   );
 }
